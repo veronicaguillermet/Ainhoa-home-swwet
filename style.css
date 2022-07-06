@@ -78,7 +78,7 @@ footer {
 }
 
 .colorfondomain {
-    background-color: #808080;
+    background-color: #b3a494;
 }
 
 .titulo {
@@ -135,7 +135,7 @@ header nav ul li a:hover {
     width: 200px;
     height: 200px;
     margin: 10px;
-    border: 5px solid #d4a885;
+    border: 5px solid  #d4a885; 
     box-shadow: 0 0 0 2px white;
 }
 
@@ -186,6 +186,7 @@ header nav ul li a:hover {
         width: 40%;
         height: 60%;
         margin: 0;
+        background-color: #c6b59c;
     }
 
     header nav ul li {

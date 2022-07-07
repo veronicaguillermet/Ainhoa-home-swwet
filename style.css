@@ -181,21 +181,33 @@ header nav ul li a:hover {
 
 @media screen and (max-width:768px) {
     .fotologo {
-        width: 100px;   
+        width: 100px;
     }
 }
 
 @media screen and (max-width:768px) {
+    header {
+    background-image: radial-gradient(circle at 50% 97.53%, #00b6ed 0, #127da4 25%, #1f4459 50%, #0e1317 75%, #000000 100%); ;
+    }
     header nav {
         width: 40%;
         height: 60%;
         margin: 0;
-        background-color: #c6b59c;
+        background-color: #084b5c;
     }
 
     header nav ul li {
         display: block;
         float: none;
         border-bottom: 2px solid #e7dcd3;
+    }
+}
+@media screen and (max-width:768px){
+    footer {
+        background-image: radial-gradient(circle at 50% 97.53%, #00b6ed 0, #127da4 25%, #1f4459 50%, #0e1317 75%, #000000 100%); ;
+    }
+    .redes{
+        background-image: radial-gradient(circle at 50% 97.53%, #00b6ed 0, #127da4 25%, #1f4459 50%, #0e1317 75%, #000000 100%); ;
+        border: solid 2px beige
     }
 }

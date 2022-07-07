@@ -211,3 +211,9 @@ header nav ul li a:hover {
         border: solid 2px beige
     }
 }
+@media screen and (max-width:768px){
+    .colorfondomain{
+        background-color: #0e161d;
+    }
+}
+

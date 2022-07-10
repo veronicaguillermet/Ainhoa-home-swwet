@@ -150,85 +150,12 @@ header nav ul li a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    padding: 30px;
     width: 100%;
     transition: all 2s;
 }
-
-.div1 { 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #0e161d;
-    grid-area: 1 / 1 / 2 / 3; }
-.div2 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('./imag-ainhoa/cama-blanca-caniche-jpg.jpg');
-    grid-area: 1 / 3 / 2 / 4; }
-    
-.div3 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('./imag-ainhoa/cama-marron-caniche.jpg');
-    grid-area: 2 / 1 / 3 / 2; }
-
-.div4 { 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('./imag-ainhoa/gatocama.jpg');
-    grid-area: 2 / 2 / 3 / 3; }
-.div5 { 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: fit;
-    background-image: url('./imag-ainhoa/gato-saco-dormir-felpa-larga-.jpg_Q90.jpg_.webp');
-    grid-area: 2 / 3 / 3 / 4; }
-
-.div6 { 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('./imag-ainhoa/camagato-grisjpg.jpg');
-    grid-area: 3 / 1 / 4 / 2; }
-
-.div7 { 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('./imag-ainhoa/camaspeludas-paragatos.png');
-    grid-area: 3 / 2 / 4 / 3; }
-
-.div8 { 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('./imag-ainhoa/dogbeig.png');
-    grid-area: 3 / 3 / 4 / 4; }
-.div9 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('./imag-ainhoa/bordeaux-sleeping-dog.jpg');
-    grid-area: 4 / 1 / 5 / 2; }
-.div10 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('./imag-ainhoa/gato-perro.webp');
-    grid-area: 4 / 2 / 5 / 3; }
-.div11 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('./imag-ainhoa/labrador-cama-beige.jpg');
-    grid-area: 4 / 3 / 5 / 4; }
-
-
 .imaggrid1 :hover{
     transform: scale(1.5);
 }

@@ -35,33 +35,43 @@
           </nav>
     </header>
 
-    <main class="imagencentral">
+    <main class="colorfondomain">
         <h3 class="textocontacto">Envianos tu comentario</h3>
-        <form class="formulario">
-            <div>
-                <label>Nombre:</label>
-                <input type="text" placeholder="Nombre completo">
-            </div>
-            <div>
-                <label form="email">Email:</label>
-                <input type="email" id="email">
-            </div>
-            <div>
-                <label for="mensaje">Dejanos tu comentario:</label>
-                <input type="text" id="mensaje">
-            </div>
-        </form>
-        <div>
-            <input type="submit">
-            <input type="reset">
-            <h3 class="textoh3">Que tan satisfecho estas con Ainhoa home sweet</h3>
-            <input type="radio" id="muysatisfecho" name="opinion">
-            <label for="muysatisfecho">Muy satisfecho</label>
-            <input type="radio" id="satisfecho" name="opinion">
-            <label for="satisfecho">satisfecho</label>
-            <input type="radio" id="pocosatisfecho" name="opinion">
-            <label for="pocosatisfecho">Poco satisfecho</label>
-        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+          </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu comentario</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+
+          <h3 class="textocontacto">Que tan satisfecho estas con Ainhoa home sweet</h3>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                Muy satisfecho
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+                satisfecho
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+            <label class="form-check-label" for="flexRadioDefault3">
+                Poco satisfecho
+            </label>
+          </div>
     </main>
 
 

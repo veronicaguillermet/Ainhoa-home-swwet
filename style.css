@@ -176,18 +176,20 @@ header nav {
 }
 
 /*contacto*/
-.imagencentral {
-    background-image: url("./imagenes/alm-fila-fond.jpg");
-}
 
 .textocontacto {
-    text-align: center;
+    color: white;
 }
 
 .formulario {
     text-align: center;
 }
-
+.form-check-label{
+    color: white;
+}
+.form-label{
+    color: white;
+}
 @media screen and (max-width:768px) {
     .fotologo {
         width: 100px;

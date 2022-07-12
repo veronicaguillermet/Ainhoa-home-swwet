@@ -182,7 +182,10 @@ header nav {
 .textocontacto {
     color: white;
 }
-
+.btn {
+    color: #e7d8e2;
+    background-color: #963283;
+}
 .formulario {
     text-align: center;
 }

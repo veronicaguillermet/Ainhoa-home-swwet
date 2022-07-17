@@ -131,12 +131,20 @@ header nav {
 /*imagenes del index*/
 .col {
     padding: 10px;
-    transition: all 2s;
+    transition: all 400ms ease;
+}
+.card {
+    box-shadow: 5px 5px 20px black;
 }
 .card:hover {
+    border-radius: 6px;
     padding: 10px;
     background-color: #dbaab7;
-    transform: scale(1.5);   
+    transform: translateY(-3%);   
+}
+.card-img-top {
+    width: 100%;
+    height: 300px;
 }
 /*proximamente*/
 .contenedormascotas {

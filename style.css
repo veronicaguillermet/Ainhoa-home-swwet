@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 /* barra de navegacion */
@@ -86,22 +87,6 @@ footer {
 }
 
 /*imagenes de productos*/
-.productos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 100%;
-    background-color: #615c5e;
-}
-
-.productos img {
-    height: 200px;
-    width: 300px;
-    margin: 10px;
-    border: 3px solid rgb(236, 157, 243);
-    box-shadow: 0 0 0 2px white;
-}
-
 .colorfondomain {
     background-color: #615c5e;
 }
@@ -135,6 +120,7 @@ header nav {
 }
 .card {
     box-shadow: 5px 5px 20px black;
+    overflow: hidden;
 }
 .card:hover {
     border-radius: 6px;
@@ -147,34 +133,7 @@ header nav {
     height: 300px;
 }
 /*proximamente*/
-.contenedormascotas {
-    min-height: 500px;
-    height: 800px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    padding: 30px;
-    width: 100%;
-    transition: all 2s;
-}
 
-.imaggrid1 :hover {
-    transform: scale(1.5);
-}
-
-.contenedormascotas img {
-    width: 200px;
-    height: 200px;
-    border: 5px solid #d4a885;
-    box-shadow: 0 0 0 2px white;
-}
-
-.clearfix img {
-    width: 400px;
-    height: 400px;
-}
 
 .textogrid {
     text-align: center;
@@ -244,34 +203,6 @@ header nav {
 @media screen and (max-width:390px) {
     .fotologo {
         width: 100px;
-    }
-}
-
-@media screen and (max-width:768px) {
-    header {
-        background-image: radial-gradient(circle at 50% 97.53%, #00b6ed 0, #127da4 25%, #1f4459 50%, #0e1317 75%, #000000 100%);
-        ;
-    }
-
-}
-
-@media screen and (max-width:768px) {
-    .bNavegacion {
-        background-color: #084b5c;
-    }
-}
-
-
-@media screen and (max-width:768px) {
-    footer {
-        background-image: radial-gradient(circle at 50% 97.53%, #00b6ed 0, #127da4 25%, #1f4459 50%, #0e1317 75%, #000000 100%);
-        ;
-    }
-
-    .redes {
-        background-image: radial-gradient(circle at 50% 97.53%, #00b6ed 0, #127da4 25%, #1f4459 50%, #0e1317 75%, #000000 100%);
-        ;
-        border: solid 2px beige
     }
 }
 

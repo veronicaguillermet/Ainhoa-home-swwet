@@ -115,7 +115,7 @@ header nav {
 
 /*imagenes del index*/
 .col {
-    padding: 10px;
+    padding: 30px;
     transition: all 400ms ease;
 }
 .card {
@@ -144,12 +144,20 @@ header nav {
 }
 
 /*contacto*/
-
+.form-label {
+    color: white;
+    margin: 5px;
+}
+.form-control {
+    margin: 5px;
+}
 .textocontacto {
+    margin: 5px;
     color: white;
 }
 
 .btn {
+    margin: 5px;
     color: #e7d8e2;
     background-color: #963283;
 }
@@ -163,13 +171,12 @@ header nav {
     text-align: center;
 }
 
-.form-check-label {
+.form-check {
+    margin: 5px;
     color: white;
 }
 
-.form-label {
-    color: white;
-}
+
 
 /* quienes somos */
 .fotocontexto {

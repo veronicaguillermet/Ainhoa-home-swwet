@@ -15,6 +15,13 @@ header {
 .bNavegacion {
     background-color: rgb(85, 29, 57);
 }
+/*mis link de navegacion*/
+
+header nav {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
 
 .nav-link {
     color: white;
@@ -22,9 +29,10 @@ header {
 
 .navbar-brand {
     color: white;
+    display: none;
 }
 
-.active {
+.nav-link.active {
     background-color: #e2d0bc;
 }
 
@@ -36,9 +44,6 @@ header {
     width: 200px;
 }
 
-.navbar-brand {
-    display: none;
-}
 
 /*Footer*/
 .logofooter {
@@ -105,13 +110,7 @@ footer {
     color: azure;
 }
 
-/*mis link de navegacion*/
 
-header nav {
-    width: 90%;
-    max-width: 1000px;
-    margin: 20px auto;
-}
 
 /*imagenes del index*/
 .col {

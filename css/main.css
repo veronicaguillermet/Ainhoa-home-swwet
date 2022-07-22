@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+.fotologo {
+  width: 200px; }
+
+header {
+  background-image: radial-gradient(circle at 44.37% 114.3%, #ff8581 0, #ff798c 8.33%, #ff6e95 16.67%, #ff629a 25%, #ff579c 33.33%, #f54d9a 41.67%, #d44294 50%, #b3398b 58.33%, #963283 66.67%, #7c2d7b 75%, #652a75 83.33%, #512870 91.67%, #3e286c 100%);
+  border: solid 6px rgba(128, 128, 128, 0.356);
+  width: 100%;
+  min-width: 100%; }
+
+header nav {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto; }
+
+.bNavegacion {
+  background-color: #551d39; }
+
+.navbar-nav.navbar-brand {
+  color: white;
+  display: none; }
+
+.navbar-nav.nav-link {
+  color: white; }
+  .navbar-nav.nav-link.active {
+    background-color: #e2d0bc; }
+  .navbar-nav.nav-link:hover {
+    background-color: blanchedalmond; }
+
+.colorfondomain {
+  background-color: #615c5e; }
+
+footer {
+  text-decoration: none;
+  width: 100%;
+  background-image: radial-gradient(circle at 44.37% 114.3%, #ff8581 0, #ff798c 8.33%, #ff6e95 16.67%, #ff629a 25%, #ff579c 33.33%, #f54d9a 41.67%, #d44294 50%, #b3398b 58.33%, #963283 66.67%, #7c2d7b 75%, #652a75 83.33%, #512870 91.67%, #3e286c 100%); }
+
+.fa-brands {
+  color: white; }
+
+.fa-solid {
+  color: white; }
+
+.redes {
+  display: grid;
+  grid-template-columns: 40px 40px;
+  justify-content: center;
+  gap: 10px 20px;
+  border: solid 2px #5c5b5b;
+  background-image: radial-gradient(circle at 44.37% 114.3%, #ff8581 0, #ff798c 8.33%, #ff6e95 16.67%, #ff629a 25%, #ff579c 33.33%, #f54d9a 41.67%, #d44294 50%, #b3398b 58.33%, #963283 66.67%, #7c2d7b 75%, #652a75 83.33%, #512870 91.67%, #3e286c 100%);
+  padding: 20px; }
+
+/*imagenes del index*/
+.col {
+  padding: 30px;
+  transition: all 400ms ease; }
+
+.card {
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden; }
+
+.card:hover {
+  border-radius: 6px;
+  padding: 10px;
+  background-color: #dbaab7;
+  transform: translateY(-3%); }
+
+.card-img-top {
+  width: 100%;
+  height: 300px; }

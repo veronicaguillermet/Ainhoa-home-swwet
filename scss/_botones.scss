@@ -1,0 +1,17 @@
+.btn-stock {
+    @extend %boton;
+    background-color: map-get($colores, "color-uno");
+}
+
+.btn-sinstock {
+    @extend %boton;
+    background-color: map-get($colores,"color-tres");  
+}
+.btn-enviar {
+    @extend %boton;
+    background-color: map-get($colores, "color-cinco");
+    
+
+}
+
+

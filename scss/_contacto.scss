@@ -1,0 +1,24 @@
+.form-label {
+    color: map-get($colores, "color-dos");
+    margin: 5px;
+}
+.form-control {
+    margin: 5px;
+}
+.textocontacto {
+    margin: 5px;
+    color: map-get($colores, "color-dos");
+}
+.form-check-input:checked {
+    background-color: map-get($colores, "color-seis");
+    border-color: deeppink;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.form-check {
+    margin: 5px;
+    color: map-get($colores, "color-dos");
+}

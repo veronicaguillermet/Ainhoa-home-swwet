@@ -3,10 +3,11 @@
     padding: 0;
     /* overflow-x: hidden; */
 }
-/* general */
+/* logo pasado a sass */
 .fotologo {
     width: 200px;
 }
+/* main color pasado a sass */
 .colorfondomain {
     background-color: #615c5e;
 }
@@ -32,7 +33,7 @@
     font-size: medium;
 }
 
-/* header */
+/* header pasado a sass */
 
 header {
     background-image: radial-gradient(circle at 44.37% 114.3%, #ff8581 0, #ff798c 8.33%, #ff6e95 16.67%, #ff629a 25%, #ff579c 33.33%, #f54d9a 41.67%, #d44294 50%, #b3398b 58.33%, #963283 66.67%, #7c2d7b 75%, #652a75 83.33%, #512870 91.67%, #3e286c 100%);
@@ -69,7 +70,7 @@ header nav {
 
 
 
-/*Footer*/
+/*Footer pasado a sass*/
 .logofooter {
     width: 50px;
     height: 50px;
@@ -116,7 +117,7 @@ footer {
 }
 
 
-/*imagenes del index*/
+/*imagenes del index pasadas a sass*/
 .col {
     padding: 30px;
     transition: all 400ms ease;
@@ -136,7 +137,7 @@ footer {
     width: 100%;
     height: 300px;
 }
-/*contacto*/
+/*contacto pasado a sass*/
 .form-label {
     color: white;
     margin: 5px;
@@ -168,7 +169,7 @@ footer {
     margin: 5px;
     color: white;
 }
-/* botones */
+/* botones pasados a sass */
 .btn-stock {
     background-color: #615c5e;
     color: white;

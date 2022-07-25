@@ -98,3 +98,25 @@ footer {
 
 .btn-enviar {
   background-color: #551d39; }
+
+.form-label {
+  color: white;
+  margin: 5px; }
+
+.form-control {
+  margin: 5px; }
+
+.textocontacto {
+  margin: 5px;
+  color: white; }
+
+.form-check-input:checked {
+  background-color: #963283;
+  border-color: deeppink; }
+
+.formulario {
+  text-align: center; }
+
+.form-check {
+  margin: 5px;
+  color: white; }

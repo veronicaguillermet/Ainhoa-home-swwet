@@ -1,0 +1,15 @@
+.fotocontexto {
+    border: solid 2px white;
+    background-color: map-get($colores, "color-tres");
+    width: 350px;
+    height: 350px;
+    padding: 5px;
+}
+.fotopeluche {
+    display: none;
+}
+
+.texto-quienes-somos {
+    font-family: $tipografia-uno;
+    color: map-get($colores, "color-tres");
+}

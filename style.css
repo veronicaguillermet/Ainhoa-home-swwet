@@ -149,11 +149,11 @@ footer {
     color: white;
 }
 
-.btn {
+/* .btn {
     margin: 5px;
     color: white;
     background-color: #963283;
-}
+} */
 
 .form-check-input:checked {
     background-color: #963283;
@@ -167,6 +167,20 @@ footer {
 .form-check {
     margin: 5px;
     color: white;
+}
+/* botones */
+.btn-stock {
+    background-color: #615c5e;
+    color: white;
+}
+.btn-sinstock {
+    background-color: black;
+    color: white;
+}
+.btn-enviar {
+    background-color:rgb(85, 29, 57);
+    color: white;
+
 }
 /* quienes somos */
 .fotocontexto {

@@ -196,7 +196,7 @@ footer {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
 }
-/* proximamente */
+/* proximamente pasado a sass*/
 .card-group {
     padding: 10px;
 }

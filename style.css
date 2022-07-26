@@ -201,7 +201,7 @@ footer {
     padding: 10px;
 }
 
-/* media query */
+/* media query pasado a sass*/
 @media screen and (max-width:768px) {
     .fotocontexto {
         display: none;

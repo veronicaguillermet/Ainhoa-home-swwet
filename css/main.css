@@ -71,7 +71,6 @@ footer {
   grid-template-columns: 40px 40px 40px;
   justify-content: left; }
 
-/*imagenes del index*/
 .col {
   padding: 30px;
   transition: all 400ms ease; }
@@ -156,3 +155,30 @@ footer {
   font-weight: 500;
   color: black;
   font-size: medium; }
+
+@media screen and (max-width: 768px) {
+  .fotocontexto {
+    display: none; } }
+
+@media screen and (max-width: 768px) {
+  .fotopeluche {
+    display: block;
+    height: 200px;
+    width: 200px; } }
+
+@media screen and (max-width: 768px) {
+  .texto-quienes-somos {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; } }
+
+@media screen and (max-width: 390px) {
+  .fotologo {
+    width: 100px; } }
+
+@media screen and (max-width: 768px) {
+  .colorfondomain {
+    background-color: #0e161d; } }
+
+@media screen and (max-width: 991px) {
+  .navbar-brand {
+    display: block; } }

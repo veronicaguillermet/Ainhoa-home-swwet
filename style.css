@@ -11,7 +11,7 @@
 .colorfondomain {
     background-color: #615c5e;
 }
-
+/* pasado a sass */
 .titulo {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -67,9 +67,6 @@ header nav {
 .nav-link:hover {
     background-color: blanchedalmond;
 }
-
-
-
 /*Footer pasado a sass*/
 .logofooter {
     width: 50px;

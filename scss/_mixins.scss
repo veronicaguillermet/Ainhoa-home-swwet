@@ -1,0 +1,21 @@
+@mixin texto ($font-f, $font-w, $font-s, $color) {
+    font-family: $font-f;
+    font-weight: $font-w;
+    font-size: $font-s;
+    color: $color;  
+}
+
+.titulo{
+    @include texto($tipografia-tres, 400, xx-large,azure );
+    text-align: center;
+}
+
+.subtitulo{
+    @include texto($tipografia-uno, 300, x-large,azure );
+    margin: 20px;
+}
+.card-title {
+    font-weight: 500;
+    color: map-get($colores, "color-tres");
+    font-size: medium;
+}

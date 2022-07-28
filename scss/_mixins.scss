@@ -19,3 +19,7 @@
     color: map-get($colores, "color-tres");
     font-size: medium;
 }
+.parrafo{
+    color: map-get($colores, "color-tres");
+    font-family: $tipografia-dos;
+}

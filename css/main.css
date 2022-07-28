@@ -140,7 +140,7 @@ footer {
   display: none; }
 
 .texto-quienes-somos {
-  font-family: font-family "Roboto", sans-serif;
+  font-family: font-family "Roboto Condensed", sans-serif;
   color: black; }
 
 .titulo {
@@ -162,6 +162,10 @@ footer {
   color: black;
   font-size: medium; }
 
+.parrafo {
+  color: black;
+  font-family: font-family "Roboto Condensed", sans-serif; }
+
 @media screen and (max-width: 768px) {
   .fotocontexto {
     display: none; } }
@@ -174,6 +178,11 @@ footer {
 
 @media screen and (max-width: 768px) {
   .texto-quienes-somos {
+    color: white;
+    font-family: 'Cairo', sans-serif; } }
+
+@media screen and (max-width: 768px) {
+  .parrafo {
     color: white;
     font-family: 'Cairo', sans-serif; } }
 

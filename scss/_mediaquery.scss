@@ -12,7 +12,13 @@
 }
 @media screen and (max-width:768px) {
     .texto-quienes-somos {
-        color: white;
+        color: map-get($colores, "color-dos");
+        font-family: 'Cairo', sans-serif;
+    }
+}
+@media screen and (max-width:768px) {
+    .parrafo {
+        color: map-get($colores, "color-dos");
         font-family: 'Cairo', sans-serif;
     }
 }

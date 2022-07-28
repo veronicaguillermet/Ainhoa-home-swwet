@@ -75,3 +75,14 @@ footer {
     grid-template-columns: 40px 40px 40px;
     justify-content: left;
 }
+.nav-link-dos {
+    color: map-get($colores, "color-dos");
+    text-decoration: none;
+}
+.nav-link-dos:hover {
+    background-color: map-get($colores,"color-tres");
+    color: map-get($colores, "color-dos");
+}
+.nav-link-dos.active {
+    background-color:map-get($colores,"color-tres");
+}

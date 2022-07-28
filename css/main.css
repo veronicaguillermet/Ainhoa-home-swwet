@@ -71,6 +71,17 @@ footer {
   grid-template-columns: 40px 40px 40px;
   justify-content: left; }
 
+.nav-link-dos {
+  color: white;
+  text-decoration: none; }
+
+.nav-link-dos:hover {
+  background-color: black;
+  color: white; }
+
+.nav-link-dos.active {
+  background-color: black; }
+
 .col {
   padding: 30px;
   transition: all 400ms ease; }

@@ -67,6 +67,19 @@ header nav {
 .nav-link:hover {
     background-color: blanchedalmond;
 }
+/*nav secundario*/
+.nav-link-dos {
+    color: white;
+    text-decoration: none;
+}
+.nav-link-dos:hover {
+    background-color: black;
+    color: white;
+}
+.nav-link-dos.active {
+    background-color:black
+}
+
 /*Footer pasado a sass*/
 .logofooter {
     width: 50px;

@@ -8,9 +8,9 @@ $colores: (
         "color-seis": #963283
 );
 
-$tipografia-uno: font-family'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-$tipografia-dos:font-family 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-$tipografia-tres:font-family 'Montserrat', sans-serif;
+$tipografia-uno: font-family'Roboto', sans-serif;
+$tipografia-dos:font-family 'Roboto Condensed', sans-serif;
+$tipografia-tres:font-family 'Paytone One', sans-serif;
 
 %boton{
     color: map-get($colores, "color-dos" );

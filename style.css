@@ -13,7 +13,7 @@
 }
 /* pasado a sass */
 .titulo {
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Paytone One', sans-serif; 
     text-align: center;
     font-weight: 400;
     color: azure;
@@ -21,7 +21,7 @@
 }
 
 .subtitulo {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Roboto', sans-serif;
     font-weight: 300;
     margin: 20px;
     color: azure;
@@ -193,7 +193,7 @@ footer {
 }
 
 .texto-quienes-somos {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     color: black;
 }
 /* proximamente pasado a sass*/
@@ -217,7 +217,7 @@ footer {
 @media screen and (max-width:768px) {
     .texto-quienes-somos {
         color: white;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family:'Cairo', sans-serif;
     }
 }
 

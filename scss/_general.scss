@@ -6,33 +6,31 @@
 .fotologo {
     width: 200px;
 }
- header {
-      background-image: map-get($colores, "color-gradiente");
-      border: solid 6px rgba(128, 128, 128, 0.356);
-      width: 100%;
-      min-width: 100%;
-  }
-   header nav {
-          width: 90%;
-          max-width: 1000px;
-          margin: 20px auto;
-   }
-  .bNavegacion {
-    background-color: map-get($colores, "color-cinco");
-  }
-.navbar-nav{
-    &.navbar-brand{
-        color: map-get($colores, "color-dos");
-        display: none;
-    }
-    &.nav-link{
-        color: map-get($colores, "color-dos");
-        &.active{
-            background-color: #e2d0bc;
+header {
+    background-image: map-get($colores, "color-gradiente");
+    border: solid 6px rgba(128, 128, 128, 0.356);
+    width: 100%;
+    min-width: 100%;
+    nav{
+        width: 90%;
+        max-width: 1000px;
+        margin: 20px auto;
+        .bNavegacion{
+            background-color: map-get($colores, "color-cinco"); 
         }
-        &:hover{
+        .navbar-brand{
+            color: map-get($colores, "color-dos");
+            display: none;
+        }
+        .nav-link{
+            color: map-get($colores, "color-dos");
+            }
+            .active{
+                background-color: #e2d0bc;
+            }
+        .nav-link:hover{
             background-color: blanchedalmond;
-        }
+        }    
     }
 }
 .colorfondomain{

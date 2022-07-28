@@ -19,25 +19,21 @@ header {
   border: solid 6px rgba(128, 128, 128, 0.356);
   width: 100%;
   min-width: 100%; }
-
-header nav {
-  width: 90%;
-  max-width: 1000px;
-  margin: 20px auto; }
-
-.bNavegacion {
-  background-color: #551d39; }
-
-.navbar-nav.navbar-brand {
-  color: white;
-  display: none; }
-
-.navbar-nav.nav-link {
-  color: white; }
-  .navbar-nav.nav-link.active {
-    background-color: #e2d0bc; }
-  .navbar-nav.nav-link:hover {
-    background-color: blanchedalmond; }
+  header nav {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto; }
+    header nav .bNavegacion {
+      background-color: #551d39; }
+    header nav .navbar-brand {
+      color: white;
+      display: none; }
+    header nav .nav-link {
+      color: white; }
+    header nav .active {
+      background-color: #e2d0bc; }
+    header nav .nav-link:hover {
+      background-color: blanchedalmond; }
 
 .colorfondomain {
   background-color: #615c5e; }

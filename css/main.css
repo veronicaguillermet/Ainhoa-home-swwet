@@ -82,12 +82,12 @@ footer {
   transition: all 400ms ease; }
 
 .card {
+  border-radius: 6px;
   box-shadow: 5px 5px 20px black;
-  overflow: hidden; }
+  overflow: hidden;
+  padding: 10px; }
 
 .card:hover {
-  border-radius: 6px;
-  padding: 10px;
   background-color: #dbaab7;
   transform: translateY(-3%); }
 

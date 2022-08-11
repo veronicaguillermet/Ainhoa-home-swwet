@@ -197,3 +197,7 @@ footer {
 @media screen and (max-width: 991px) {
   .navbar-brand {
     display: block; } }
+
+@media screen and (max-width: 768px) {
+  .card-group {
+    display: none; } }

@@ -7,12 +7,14 @@
 
 .titulo{
     @include texto($tipografia-tres, 400, xx-large,azure );
+    padding: 2rem 0;
     text-align: center;
 }
 
 .subtitulo{
     @include texto($tipografia-uno, 300, x-large,azure );
-    margin: 20px;
+    padding: 2rem 0;
+    text-align: center;
 }
 .card-title {
     font-weight: 500;

@@ -209,3 +209,7 @@ footer {
 @media screen and (max-width: 992px) {
   .card-padding {
     padding: 0 10rem; } }
+
+@media screen and (max-width: 576px) {
+  .card-padding {
+    padding: 0 2rem; } }
